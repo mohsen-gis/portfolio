@@ -20,6 +20,7 @@ import Dark1 from "views/index-sections/SectionDark.js";
 
 ReactDOM.render(
   <BrowserRouter>
+  <meta name="viewport" content="width=device-width" />
     <Switch>
       <Route path="/index" render={(props) => <Index {...props} />} />
       <Route
