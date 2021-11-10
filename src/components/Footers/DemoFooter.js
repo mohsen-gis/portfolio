@@ -44,8 +44,8 @@ function DemoFooter() {
           <div className="credits ml-auto">
             <span className="copyright">
               Last Update: November 2021
-              <i className="fa fa-heart heart" /> 
-              <i className="fa fa-wrench faa-wrench animated faa-fast"></i>
+//               <i className="fa fa-heart heart" /> 
+              <i className="fa fa-passing faa-passing animated faa-fast"></i>
             </span>
           </div>
         </Row>
