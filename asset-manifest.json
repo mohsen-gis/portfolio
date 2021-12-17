@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.23a0508d.chunk.css",
-    "main.js": "/static/js/main.fa67f35d.chunk.js",
-    "main.js.map": "/static/js/main.fa67f35d.chunk.js.map",
+    "main.css": "/static/css/main.335b522f.chunk.css",
+    "main.js": "/static/js/main.c2329269.chunk.js",
+    "main.js.map": "/static/js/main.c2329269.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.667508f8.js",
     "runtime-main.js.map": "/static/js/runtime-main.667508f8.js.map",
     "static/css/2.7ab6f613.chunk.css": "/static/css/2.7ab6f613.chunk.css",
-    "static/js/2.f4e38e16.chunk.js": "/static/js/2.f4e38e16.chunk.js",
-    "static/js/2.f4e38e16.chunk.js.map": "/static/js/2.f4e38e16.chunk.js.map",
+    "static/js/2.3776cf74.chunk.js": "/static/js/2.3776cf74.chunk.js",
+    "static/js/2.3776cf74.chunk.js.map": "/static/js/2.3776cf74.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7ab6f613.chunk.css.map": "/static/css/2.7ab6f613.chunk.css.map",
-    "static/css/main.23a0508d.chunk.css.map": "/static/css/main.23a0508d.chunk.css.map",
-    "static/js/2.f4e38e16.chunk.js.LICENSE.txt": "/static/js/2.f4e38e16.chunk.js.LICENSE.txt",
-    "static/js/main.fa67f35d.chunk.js.LICENSE.txt": "/static/js/main.fa67f35d.chunk.js.LICENSE.txt",
+    "static/css/main.335b522f.chunk.css.map": "/static/css/main.335b522f.chunk.css.map",
+    "static/js/2.3776cf74.chunk.js.LICENSE.txt": "/static/js/2.3776cf74.chunk.js.LICENSE.txt",
+    "static/js/main.c2329269.chunk.js.LICENSE.txt": "/static/js/main.c2329269.chunk.js.LICENSE.txt",
     "static/media/clouds.png": "/static/media/clouds.3c700c13.png",
     "static/media/dashboard.JPG": "/static/media/dashboard.32fcdf8f.JPG",
     "static/media/david_haynes.jpeg": "/static/media/david_haynes.76a6f835.jpeg",
@@ -26,15 +26,15 @@
     "static/media/joshua-stannard.jpg": "/static/media/joshua-stannard.a16f281c.jpg",
     "static/media/login-image.jpg": "/static/media/login-image.21e8ba3f.jpg",
     "static/media/mohsen_headshot.jpg": "/static/media/mohsen_headshot.dc244c94.jpg",
-    "static/media/paper-kit.css": "/static/media/nucleo-icons.ec16bc4c.woff2",
+    "static/media/paper-kit.scss?v=1.3.0": "/static/media/nucleo-icons.ec16bc4c.woff2",
     "static/media/solap_intro.png": "/static/media/solap_intro.2ac25597.png",
     "static/media/soroush-karimi.jpg": "/static/media/soroush-karimi.620dc9e9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.667508f8.js",
     "static/css/2.7ab6f613.chunk.css",
-    "static/js/2.f4e38e16.chunk.js",
-    "static/css/main.23a0508d.chunk.css",
-    "static/js/main.fa67f35d.chunk.js"
+    "static/js/2.3776cf74.chunk.js",
+    "static/css/main.335b522f.chunk.css",
+    "static/js/main.c2329269.chunk.js"
   ]
 }
