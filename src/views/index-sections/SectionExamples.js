@@ -56,6 +56,7 @@ function SectionExamples() {
                   style={{ width: "100%" }}
                 />
               </a>
+              <center>
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
@@ -64,6 +65,7 @@ function SectionExamples() {
               >
                 Hour of Cyberinfrastructure (CI)
               </Button>
+              </center>
             </Col>
             <Col className="text-center" md="6">
               <a href="/#/moose" target="_blank">
