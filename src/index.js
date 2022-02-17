@@ -16,13 +16,14 @@ import RegisterPage from "views/examples/RegisterPage.js";
 import EveryField from "views/examples/EveryField.js";
 import Dark1 from "views/index-sections/SectionDark.js";
 import Hourofci from "views/examples/hourofci.js";
+import { HelmetProvider } from "react-helmet-async";
 // others
 // import 'babel/polyfill';
 import "babel-polyfill";
 
 ReactDOM.render(
   
-  
+  <HelmetProvider>
   <HashRouter>
   <meta name="viewport" content="width=device-width" />
     <Switch>
@@ -62,6 +63,7 @@ ReactDOM.render(
       />
       <Redirect to="/index" />
     </Switch>
-    </HashRouter>,
+    </HashRouter>
+    </HelmetProvider>,
   document.getElementById("root")
 );

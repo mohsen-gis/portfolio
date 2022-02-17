@@ -27,6 +27,7 @@ import SectionLogin from "views/index-sections/SectionLogin.js";
 import SectionExamples from "views/index-sections/SectionExamples.js";
 import SectionExamplesNonSpatial from "views/index-sections/SectionExamplesNonSpatial.js";
 import SectionDownload from "views/index-sections/SectionDownload.js";
+import { Helmet } from "react-helmet-async";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -37,9 +38,18 @@ function Index() {
     };
     
   });
-  console.log('mohsennnnnclassList', document.body.classList)
+  
   return (
     <>
+    <Helmet>
+      <title>Mohsen Ahmadkhani</title>
+    <meta 
+    name="description" 
+    content="The Professional Portfolio of Mohsen Ahmadkhani. Mohsen Ahmadkhani is a PhD student and an MGIS student at the University of Minnesota. He got his BSc in Surveying Engineering at Zanjan University and then got an Master of Science (MSc) in Geographic Information Systems from Khaje Nasir University (KNTU). He is interested in Geocomputing and CyberGIScience. He has been working on multiple projects including agricultural field delineation, hour of cyberinfrastructure and spatial online analytical platforms (SOLAP) for COVID-19." 
+    data-rh = "true"
+    />
+    <link rel = 'canonical' href = '#/index'/>
+    </Helmet>
       <IndexNavbar />
       <IndexHeader />
      
