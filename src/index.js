@@ -8,13 +8,9 @@ import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LandingPage from "views/examples/LandingPage.js";
+import SolapProject from "views/examples/SolapProject.js";
 import MooseAnalysis from "views/examples/MooseAnalysis.js";
-import ProfilePage from "views/examples/ProfilePage.js";
-import RegisterPage from "views/examples/RegisterPage.js";
 import EveryField from "views/examples/EveryField.js";
-import Dark1 from "views/index-sections/SectionDark.js";
 import Hourofci from "views/examples/hourofci.js";
 import { HelmetProvider } from "react-helmet-async";
 // others
@@ -29,10 +25,7 @@ ReactDOM.render(
     <Switch>
 
       <Route path="/index" render={(props) => <Index {...props} />} />
-      <Route
-        path="/Dark1"
-        render={(props) => <Dark1 {...props} />}
-      />
+     
       <Route
         path="/moose"
         render={(props) => <MooseAnalysis {...props} />}
@@ -41,26 +34,15 @@ ReactDOM.render(
         path="/hourofci"
         render={(props) => <Hourofci {...props} />}
       />
-      {/* <Route
-        path="/moose"
-        render={(props) => <MooseAnalysis {...props} />}
-      /> */}
       <Route
         path="/covid-dashboard"
-        render={(props) => <LandingPage {...props} />}
+        render={(props) => <SolapProject {...props} />}
       />
       <Route
         path="/every-field"
         render={(props) => <EveryField {...props} />}
       />
-      <Route
-        path="/profile-page"
-        render={(props) => <ProfilePage {...props} />}
-      />
-      <Route
-        path="/register-page"
-        render={(props) => <RegisterPage {...props} />}
-      />
+      
       <Redirect to="/index" />
     </Switch>
     </HashRouter>

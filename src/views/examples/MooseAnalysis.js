@@ -22,6 +22,7 @@ import {
 import ExamplesNavbar from "components/Navbars/MooseAnalysisNavbar.js";
 import ProfilePageHeader from "components/Headers/ProfilePageHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
+import { Helmet } from "react-helmet-async";
 
 function MooseAnalysis() {
   const [activeTab, setActiveTab] = React.useState("1");
@@ -34,13 +35,22 @@ function MooseAnalysis() {
 
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
-    document.body.classList.add("every-field");
+    document.body.classList.add("moose");
     return function cleanup() {
-      document.body.classList.remove("every-field");
+      document.body.classList.remove("moose");
     };
   });
   return (
     <>
+    <Helmet>
+      <title>Mohsen Ahmadkhani - Moose Movement Analysis</title>
+    <meta 
+    name="description" 
+    content="Our collective data indicate that the spatial proximity of dams investing in their neonates, and their stronger bond, nurtured neonate vitality in a way that reinforced continued investment." 
+    data-rh = "true"
+    />
+    <link rel="canonical" href="https://www.mohsenahmadkhani.com/#/moose"/>
+    </Helmet>
       <ExamplesNavbar />
       <ProfilePageHeader />
       <div className="section profile-content">

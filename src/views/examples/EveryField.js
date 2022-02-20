@@ -22,7 +22,7 @@ import {
 import ExamplesNavbar from "components/Navbars/EveryFieldNavbar.js";
 import ProfilePageHeaderEveryfield from "components/Headers/ProfilePageHeaderEveryfield.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-
+import { Helmet } from "react-helmet-async";
 function EveryField() {
   const [activeTab, setActiveTab] = React.useState("1");
 
@@ -41,6 +41,15 @@ function EveryField() {
   });
   return (
     <>
+    <Helmet>
+      <title>Mohsen Ahmadkhani - EveryField And Deep Learning</title>
+    <meta 
+    name="description" 
+    content="EveryField project is Mohsen Ahmadkhani's an on-going research toward implementing a robust pipeline to build the informatics of agricultural field delineation at a global scale." 
+    data-rh = "true"
+    />
+    <link rel="canonical" href="https://www.mohsenahmadkhani.com/#/every-field"/>
+    </Helmet>
       <ExamplesNavbar />
       <ProfilePageHeaderEveryfield />
       <div className="section profile-content">
@@ -48,7 +57,7 @@ function EveryField() {
           <div className="owner">
             <div className="avatar">
               <img
-                alt="..."
+                alt="EveryField project is Mohsen Ahmadkhani's an on-going research toward implementing a robust pipeline to build the informatics of agricultural field delineation at a global scale."
                 className="img-circle img-no-padding img-responsive"
                 src={require("assets/img/faces/farm-field-icon-19.jpg").default}
               />

@@ -22,7 +22,7 @@ import {
 import HourofciNavbar from "components/Navbars/HourofciNavbar.js";
 import ProfilePageHeaderHourofci from "components/Headers/ProfilePageHeaderHourofci.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
-
+import { Helmet } from "react-helmet-async";
 function Hourofci() {
   const [activeTab, setActiveTab] = React.useState("1");
 
@@ -34,13 +34,22 @@ function Hourofci() {
 
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
-    document.body.classList.add("every-field");
+    document.body.classList.add("hourofci");
     return function cleanup() {
-      document.body.classList.remove("every-field");
+      document.body.classList.remove("hourofci");
     };
   });
   return (
     <>
+    <Helmet>
+      <title>Mohsen Ahmadkhani - Hour of Cyberinfrastructure</title>
+    <meta 
+    name="description" 
+    content="EveryField project is Mohsen Ahmadkhani's an on-going research toward implementing a robust pipeline to build the informatics of agricultural field delineation at a global scale." 
+    data-rh = "true"
+    />
+    <link rel="canonical" href="https://www.mohsenahmadkhani.com/#/hourofci"/>
+    </Helmet>
       <HourofciNavbar />
       <ProfilePageHeaderHourofci />
       <div className="section profile-content">

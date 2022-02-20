@@ -34,7 +34,7 @@ function DemoFooter() {
           </nav>
           <div className="credits ml-auto">
             <span className="copyright">
-              Last update: December 2021
+              Last update: February 2022
             </span>
           </div>
         </Row>
